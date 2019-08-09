@@ -49,7 +49,7 @@ Annotation view set of map
 
 每个结点内的点必然是相邻的，但相邻的点越不一定在同一个结点内
 
-<img src="https://s2.ax1x.com/2019/08/09/eHYdII.png" width=350 height=250 />
+<img src="https://s2.ax1x.com/2019/08/09/eHYdII.png" width=350 height=300 />
 
 特性：字典树，又称前缀树或trie树，是一种有序树，用于保存关联数组，其中的键通常是字符串。一个节点的所有子孙都有相同的前缀，也就是这个节点对应的字符串，而根节点对应空字符串。
 解决：继续优化四叉树，给结点添加一个“编号”属性。
